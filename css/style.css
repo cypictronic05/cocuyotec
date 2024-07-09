@@ -130,11 +130,15 @@ a:focus {
   margin-right: 5px;
 }
 
-.navbar-brand span {
-  font-size: 24px;
+.navbar-brand span { /* EL LOGO*/
   font-weight: 700;
   color: #ffffff;
-  /*text-transform: uppercase;*/
+  text-transform: uppercase;
+  font-family: 'Arial', sans-serif; /* Puedes cambiar 'Arial' por la fuente que prefieras */
+  font-size: 30px; /* Ajusta el tamaño de la fuente según sea necesario */
+  color: rgb(255, 255, 255); /* Color del texto */
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* Sombra del texto para crear el borde */
+   
 }
 
 .custom_nav-container {
@@ -632,4 +636,7 @@ a:focus {
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
+
+
+
 
