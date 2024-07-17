@@ -125,9 +125,10 @@ a:focus {
 }
 
 .navbar-brand img {
-  width: 60px;
-  height: 60px;
-  margin-right: 5px;
+  width: 60%;
+  /* width: 457px;
+  height: 131px;
+  margin-right: 0px; */
 }
 
 .navbar-brand span { /* EL LOGO*/
