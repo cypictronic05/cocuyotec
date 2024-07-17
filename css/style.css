@@ -4,6 +4,50 @@ body {
   background-color: #FFFFFF;
 }
 
+.carrusel{
+  width: 90%;
+  max-width: 120em;
+  flex-direction: row nowrap;
+  /* background-color: lightblue; */
+}
+
+.carrusel .grande{
+  width: 300%;
+  /* background-color: orange; */
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrusel .img{
+  width: calc(100%/3);
+  background-color: lime;
+}
+
+.carrusel .puntos{
+  width: 100%;
+  /* background-color: red; */
+  padding: 1em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;  
+
+}
+
+.carrusel .punto{
+  width: 1em;
+  height: 1em;
+  background-color: blue;
+  border-radius: 1em;
+  margin: 1em;
+}
+
+.carrousel .punto.activo {
+  background-color: green;
+}
+
 .layout_padding {
   padding: 75px 0;
 }
